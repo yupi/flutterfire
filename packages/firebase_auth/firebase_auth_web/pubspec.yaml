@@ -12,7 +12,9 @@ flutter:
 
 dependencies:
   firebase_auth_platform_interface:
-    path: ../firebase_auth_platform_interface
+    git:
+      url: https://github.com/yupi/flutterfire.git
+      path: packages/firebase_auth/firebase_auth_platform_interface
   flutter:
     sdk: flutter
   flutter_web_plugins:
